@@ -4,31 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grupos de Enfermagem do RJ</title>
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;
+    n.push=n;
+    n.loaded=!0;
+    n.version='2.0';
+    n.queue=[];
+    t=b.createElement(e);
+    t.async=!0;
+    t.src=v;
+    s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s);
+    }(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '2271784463591657');
+    fbq('track', 'PageView');
+    </script>
+    <!-- End Meta Pixel Code -->
+
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
+
+    <!-- Meta Pixel (noscript) -->
+    <noscript>
+        <img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=2271784463591657&ev=PageView&noscript=1"/>
+    </noscript>
+
     <div class="background-overlay"></div>
+
     <div class="container">
+
         <header>
             <h1>GRUPOS DE ENFERMAGEM <span>DO RJ</span></h1>
             <h2>(TÉCNICOS E PROFISSIONAIS DE SAÚDE)</h2>
-            <p class="subtitle">ACESSE OS MELHORES GRUPOS DO RIO!<br>AUMENTA SUA REDE E OPORTUNIDADES!</p>
+            <p class="subtitle">
+                ACESSE OS MELHORES GRUPOS DO RIO!<br>
+                AUMENTA SUA REDE E OPORTUNIDADES!
+            </p>
         </header>
 
         <div class="packs-container">
+
             <!-- Pack Básica -->
             <div class="pack-card card-basica">
                 <div class="pack-icon">
                     <i class="fa-solid fa-user-nurse"></i>
                 </div>
+
                 <div class="pack-details">
                     <h3>PACK BÁSICA</h3>
                     <p class="groups">10 GRUPOS</p>
                     <p class="price">R$ 29,99</p>
                 </div>
-                <a href="https://pay.kiwify.com.br/e8NbgRT" class="buy-btn">COMPRAR AGORA</a>
+
+                <a href="https://pay.kiwify.com.br/e8NbgRT"
+                   class="buy-btn"
+                   onclick="fbq('track','AddToCart');">
+                    COMPRAR AGORA
+                </a>
             </div>
 
             <!-- Pack Top -->
@@ -36,12 +80,18 @@
                 <div class="pack-icon">
                     <i class="fa-solid fa-star"></i>
                 </div>
+
                 <div class="pack-details">
                     <h3>PACK TOP</h3>
                     <p class="groups">20 GRUPOS</p>
                     <p class="price">R$ 49,90</p>
                 </div>
-                <a href="https://pay.kiwify.com.br/KMGkfx2" class="buy-btn">COMPRAR AGORA</a>
+
+                <a href="https://pay.kiwify.com.br/KMGkfx2"
+                   class="buy-btn"
+                   onclick="fbq('track','AddToCart');">
+                    COMPRAR AGORA
+                </a>
             </div>
 
             <!-- Pack Master -->
@@ -49,12 +99,18 @@
                 <div class="pack-icon">
                     <i class="fa-solid fa-trophy"></i>
                 </div>
+
                 <div class="pack-details">
                     <h3>PACK MASTER</h3>
                     <p class="groups">40 GRUPOS</p>
                     <p class="price">R$ 69,90</p>
                 </div>
-                <a href="https://pay.kiwify.com.br/y4JFV20" class="buy-btn">COMPRAR AGORA</a>
+
+                <a href="https://pay.kiwify.com.br/y4JFV20"
+                   class="buy-btn"
+                   onclick="fbq('track','AddToCart');">
+                    COMPRAR AGORA
+                </a>
             </div>
 
             <!-- Pack VIP -->
@@ -62,13 +118,20 @@
                 <div class="pack-icon">
                     <i class="fa-solid fa-crown"></i>
                 </div>
+
                 <div class="pack-details">
                     <h3>PACK VIP</h3>
                     <p class="groups">80 GRUPOS</p>
                     <p class="price">R$ 79,90</p>
                 </div>
-                <a href="https://pay.kiwify.com.br/DbGrgJg" class="buy-btn">COMPRAR AGORA</a>
+
+                <a href="https://pay.kiwify.com.br/DbGrgJg"
+                   class="buy-btn"
+                   onclick="fbq('track','AddToCart');">
+                    COMPRAR AGORA
+                </a>
             </div>
+
         </div>
 
         <footer>
@@ -76,8 +139,13 @@
                 <i class="fa-brands fa-pix"></i>
                 <p>PAGAMENTO VIA PIX</p>
             </div>
-            <p class="cta-text">SELECIONE SEU PACK E ACESSE AGORA!</p>
+
+            <p class="cta-text">
+                SELECIONE SEU PACK E ACESSE AGORA!
+            </p>
         </footer>
+
     </div>
+
 </body>
 </html>
